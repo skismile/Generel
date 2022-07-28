@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.leftCont {
+  /* border: 1px solid blue; */
+  width: 75%;
+  height: 350px;
+}
+
+.rightCont {
+  /* border: 1px solid blue; */
+  width: 25%;
+  height: 350px;
+}
+.idendity {
+  /* border: 1px solid orange; */
+  height: 35%;
+  padding: 10px;
+  text-align: left;
+}
+.skill {
+  /* border: 1px solid green; */
+  height: 65%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 40px);
+  gap: 10px;
+}
+.idendity > h1 {
+  display: inline;
+}
+.idendity > button {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.skillbox {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+.skillbox > p {
+  font-size: 10px;
+}
+
+.rightCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightCont > img {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+}
